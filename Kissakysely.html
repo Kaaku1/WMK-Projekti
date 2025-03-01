@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Kissakysely</title>
+    <style>
+        body {
+            background-color: rgb(49, 49, 49);
+        }
+        .homepagelink {
+            background-color: rgb(49, 49, 49);
+            overflow: hidden;
+        }
+        .homepagelink a {
+            float: left;
+            color: #7f8cfc;
+            text-align: center;
+            padding: 20px 20px;
+            font-size: 30px;
+        }
+        .questions {
+            color: white;
+            font-size: 30px;
+        }
+        .rightquestions {
+            position: absolute;
+            right: 0;
+            width: 45%;
+        }
+        .leftquestions {
+            width: 45%;
+        }
+        .anwsers {
+            background-color: rgb(68, 203, 149);
+            color: white;
+            padding: 30px 60px;
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <div class="homepagelink">
+        <a class="active" href="Etusivu.html">Etusivu</a>
+    </div>
+    
+    <div class="questions">
+        <div class="rightquestions">
+            <form action="">
+                <p>Montako kissaa omistat?</p>
+
+                <input type="radio" id="1kissa" name="catsnumber" value="">
+                <label for="1kissa">Omistan yhden kissan</label> <br>
+
+                <input type="radio" id="2kissa" name="catsnumber" value="">
+                <label for="2kissa">Omistan kaksi kissaa</label> <br>
+
+                <input type="radio" id="3kissa" name="catsnumber" value="">
+                <label for="3kissa">Omistan kolme kissaa</label> <br>
+
+                <input type="radio" id="4kissa" name="catsnumber" value="">
+                <label for="4kissa">Omistan neljä kissaa</label> <br>
+
+                <input type="radio" id="0kissa" name="catsnumber" value="">
+                <label for="0kissa">En omista kissaa</label> <br>
+
+                <br>
+
+                <p>Pidätkö kissoista?</p>
+
+                <input type="radio" id="love" name="likescats" value="">
+                <label for="love">Rakastan kissoja</label> <br>
+
+                <input type="radio" id="like" name="likescats" value="">
+                <label for="like">Pidän kissoista</label> <br>
+
+                <input type="radio" id="neutral" name="likescats" value="">
+                <label for="neutral">En tunne mitään erityistä kissoja kohtaan</label> <br>
+
+                <input type="radio" id="dislike" name="likescats" value="">
+                <label for="dislike">En pidä kissoista</label> <br>
+
+                <input type="radio" id="hate" name="likescats" value="">
+                <label for="hate">Vihaan kissoja</label> <br>
+            </form>
+        </div>
+        <div class="leftquestions">
+            <form action="">
+                <p>Oletko koskaan omistanut/halunnut omistaa kissaa?</p>
+
+                <input type="radio" id="own" name="ownscat" value="">
+                <label for="own">Omistan kissan</label> <br>
+
+                <input type="radio" id="haveowned" name="ownscat" value="">
+                <label for="haveowned">Olen omistanut kissan</label> <br>
+
+                <input type="radio" id="wantstoown" name="ownscat" value="">
+                <label for="wantstoown">Haluaisin omistaa kissan</label> <br>
+
+                <input type="radio" id="dontown" name="ownscat" value="">
+                <label for="dontown">En omista tai ole omistanut kissaa</label> <br>
+
+                <br>
+
+                <p>Kuinka paljon sinulla menee rahaa kissaasi kuukaudessa?</p>
+
+                <input type="radio" id="50" name="money" value="">
+                <label for="50">0-50€</label> <br>
+
+                <input type="radio" id="100" name="money" value="">
+                <label for="100">51-100€</label> <br>
+
+                <input type="radio" id="200" name="money" value="">
+                <label for="200">101-200€</label> <br>
+
+                <input type="radio" id="more" name="money" value="">
+                <label for="more">200€+</label> <br>
+
+                <input type="radio" id="0" name="money" value="">
+                <label for="0">En omista kissaa</label> <br>
+
+                <br><br>
+
+                <input type="submit" value="Lähetä vastaukset!" class="anwsers">
+            </form>
+        </div>
+    </div>
+    
+
+</body>
+</html>
